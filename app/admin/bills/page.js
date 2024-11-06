@@ -179,7 +179,7 @@ function BillsPage() {
                         <h3 className='mb-2 text-xl font-semibold'>ใบเสร็จทั้งหมด</h3>
                         <input
                             className='border border-neutral-300 rounded px-2 py-1 shadow text-sm'
-                            placeholder='ค้นหาสต๊อก'
+                            placeholder='ค้นหาใบเสร็จ'
                             name="search"
                             value={search}
                             onChange={(e) => setSearch(e.target.value)}
